@@ -48,16 +48,16 @@ var projects = [
         languages: ['PHP', 'LARAVEL']
     },
     {
-        title: 'CS50X',
-        description: 'Projetos do curso de programação de Harvard',
-        link: '',
-        languages: ['PYTHON', 'C']
-    },
-    {
         title: 'Api Imobiliaria',
         description: 'Gestão de imóveis',
         link: 'https://github.com/luanloose/api-imobiliaria',
         languages: ['PHP', 'LARAVEL']
+    },
+    {
+        title: 'CS50X',
+        description: 'Projetos do curso de programação de Harvard',
+        link: '',
+        languages: ['PYTHON', 'C']
     },
     {
         title: 'Controle de Séries',
