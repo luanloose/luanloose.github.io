@@ -213,7 +213,7 @@ function apply() {
             <h4 class="gray-light">Escola ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
             <div class="flex justify">
-            <a class="link" target="_blank" href="${element.link}">Github</a>
+            <a class="link" target="_blank" href="${element.link}">Certificado</a>
                 <div class="flex">
                     ${languages}
                 </div>
