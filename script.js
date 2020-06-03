@@ -77,7 +77,7 @@ var jobs = [
     {
         title: 'Analista de desenvolvimento',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
-        languages: ['PHP', 'LUMEN', 'SELENIUM', 'LARAVEL', 'GO', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        languages: ['LARAVEL', 'LUMEN', 'VUE','SELENIUM', 'PHP', 'GO', 'HTML', 'JS', 'CSS', 'JQUERY'],
         company: 'Genesis Tecnologia',
     },
     {
@@ -96,22 +96,46 @@ var jobs = [
 
 var courses = [
     {
-        title: 'Analista de desenvolvimento',
+        title: 'CIÊNCIAS DA COMPUTAÇÃO',
+        description: '',
+        languages: ['PHP', 'JAVA', 'PYTHON'],
+        link: '',
+        company: 'FAESA',
+    },
+    {
+        title: 'TÉCNICO EM INFORMÁTICA',
+        description: '',
+        languages: ['PHP', 'PYTHON', 'C' , 'HTML', 'JS', 'CSS', 'JQUERY'],
+        link: 'https://drive.google.com/file/d/1dqVfNMKDLD9KDLGYBj0Z3VtO3ybJpgIU/view?usp=sharing',
+        company: 'INSTITUTO FEDERAL DO ESPIRITO SANTO',
+    },
+    {
+        title: 'LARAVEL',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
-        languages: ['PHP', 'LUMEN', 'SELENIUM', 'LARAVEL', 'GO', 'HTML', 'JS', 'CSS', 'JQUERY'],
-        company: 'Genesis Tecnologia',
+        languages: ['PHP', 'LUMEN','LARAVEL'],
+        link: 'https://drive.google.com/drive/folders/1vVdwc01vgk_eSe-nGv3frR1gmij533SM?usp=sharing',
+        company: 'Udemy | TreinaWeb',
     },
     {
-        title: 'Programador',
+        title: 'VUEJS',
+        description: '',
+        languages: ['PHP', 'LUMEN','LARAVEL'],
+        link: 'https://drive.google.com/drive/folders/1t-bFkY0FL4ppAUftRr2lVQ-jItL9xqxn?usp=sharing',
+        company: 'Udemy | TreinaWeb',
+    },
+    {
+        title: 'SELENIUM',
         description: 'Gerador de cupom da promoção do Mc Donalds.',
-        languages: ['NOTES','HTML', 'JS', 'CSS', 'JQUERY'],
-        company: 'Integro Consultores'
+        languages: ['SELENIUM'],
+        link: 'https://drive.google.com/file/d/16fmH8E8SjcDFXYhlKETzZIVaihby6MiY/view?usp=sharing',
+        company: 'TreinaWeb'
     },
     {
-        title: 'Técnico de Suporte | Administrador de Sistemas',
+        title: 'JAVASCRIPT',
         description: 'Desenvolvimento/Manutenção de aplicação e scripts',
-        languages: ['AWS','POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
-        company: 'Telelaudo Tecnologia Médica'
+        languages: ['JS'],
+        link: 'https://drive.google.com/drive/folders/1FsQbaSSpHUeYV8v1MHHEED6Ap-9x9CwF?usp=sharing',
+        company: 'TreinaWeb'
     }
 ];
 
@@ -189,6 +213,7 @@ function apply() {
             <h4 class="gray-light">Escola ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
             <div class="flex justify">
+            <a class="link" target="_blank" href="${element.link}">Github</a>
                 <div class="flex">
                     ${languages}
                 </div>
