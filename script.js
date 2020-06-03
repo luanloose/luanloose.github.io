@@ -78,18 +78,21 @@ var jobs = [
         title: 'Analista de desenvolvimento',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
         languages: ['LARAVEL', 'LUMEN', 'VUE', 'SELENIUM', 'PHP', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        period: "12/2019 - Atual",
         company: 'Genesis Tecnologia',
     },
     {
         title: 'Programador',
         description: 'Gerador de cupom da promoção do Mc Donalds.',
         languages: ['NOTES','HTML', 'JS', 'CSS', 'JQUERY'],
+        period: "06/2017 - 12/2019",
         company: 'Integro Consultores'
     },
     {
         title: 'Técnico de Suporte | Administrador de Sistemas',
         description: 'Desenvolvimento/Manutenção de aplicação e scripts',
         languages: ['AWS', 'POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
+        period: "06/2017 - 06/2019",
         company: 'Telelaudo Tecnologia Médica'
     }
 ];
@@ -182,8 +185,9 @@ function apply() {
         <div class="box">
             <h2 class="green-strong">${element.title}</h2>
             <div class="bar greenS"></div>
-            <h4 class="gray-light">Empresa ${element.company}</h4>
+            <h4 class="gray-light">Empresa: ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
+            <h4 class="description gray-light">${element.period}</h4>
             <div class="flex justify">
                 <div class="flex">
                     ${languages}
