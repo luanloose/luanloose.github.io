@@ -55,13 +55,13 @@ var projects = [
     },
     {
         title: 'Api Imobiliaria',
-        description: 'Projeto do Curso de Api Rest',
+        description: 'Gestão de imóveis',
         link: 'https://github.com/luanloose/api-imobiliaria',
         languages: ['PHP', 'LARAVEL']
     },
     {
         title: 'Controle de Séries',
-        description: 'Projeto do Curso de Laravel para gestão de episodios assistidos',
+        description: 'Sistema para gestão de episodios assistidos',
         link: 'https://github.com/luanloose/controle-series',
         languages: ['PHP', 'LARAVEL']
     },
