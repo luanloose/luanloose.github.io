@@ -69,7 +69,7 @@ var projects = [
         title: 'Exemplos',
         description: 'Códigos do dia a dia para consulta.',
         link: 'https://github.com/luanloose/Examples',
-        languages: ['PHP', 'LARAVEL', 'LUMEN', 'SELENIUM','DOCKER']
+        languages: ['PHP', 'LARAVEL', 'LUMEN', 'SELENIUM', 'DOCKER']
     },
 ];
 
@@ -83,8 +83,8 @@ var jobs = [
     },
     {
         title: 'Programador',
-        description: 'Gerador de cupom da promoção do Mc Donalds.',
-        languages: ['NOTES','HTML', 'JS', 'CSS', 'JQUERY'],
+        description: 'Desenvolvimento/Manutenção no sistema da empresa.',
+        languages: ['NOTES', 'HTML', 'JS', 'CSS', 'JQUERY'],
         period: "06/2017 - 12/2019",
         company: 'Integro Consultores'
     },
@@ -112,13 +112,13 @@ var courses = [
     },
     {
         title: 'LARAVEL',
-        languages: ['PHP', 'LUMEN','LARAVEL'],
+        languages: ['PHP', 'LUMEN', 'LARAVEL'],
         link: 'https://drive.google.com/drive/folders/1vVdwc01vgk_eSe-nGv3frR1gmij533SM?usp=sharing',
         company: 'Udemy | TreinaWeb',
     },
     {
         title: 'VUEJS',
-        languages: ['PHP', 'LUMEN','LARAVEL'],
+        languages: ['PHP', 'LUMEN', 'LARAVEL'],
         link: 'https://drive.google.com/drive/folders/1t-bFkY0FL4ppAUftRr2lVQ-jItL9xqxn?usp=sharing',
         company: 'Udemy | TreinaWeb',
     },
@@ -136,13 +136,13 @@ var courses = [
     }
 ];
 
-function apply() {
+function apply () {
     let html = '';
     let level = '';
     tec.forEach(element => {
         level = element.color === 'red' ? 'Básico' : element.color === 'yellow' ? 'Intermediário' : 'Avançado';
-        html += 
-        `
+        html +=
+            `
         <div class="box">
             <h2>${element.title}</h2>
             <div class="bar ${element.color}B"></div>
@@ -159,9 +159,11 @@ function apply() {
         languages = '';
         element.languages.forEach(item => languages += `<img class="language-icon" src="assets/${item}.svg"></img>`);
         html +=
-        `
+            `
         <div class="box">
-            <h2 class="green-strong">${element.title}</h2>
+            <div class="box-title">
+                <h2 class="green-strong">${element.title}</h2>
+            </div>
             <div class="bar greenS"></div>
             <h4 class="description white">${element.description}</h4>
             <div class="flex justify">
@@ -181,11 +183,13 @@ function apply() {
         languages = '';
         element.languages.forEach(item => languages += `<img class="language-icon" src="assets/${item}.svg"></img>`);
         html +=
-        `
+            `
         <div class="box">
-            <h2 class="green-strong">${element.title}</h2>
+            <div class="box-title">
+                <h2 class="green-strong">${element.title}</h2>
+            </div>
             <div class="bar greenS"></div>
-            <h4 class="gray-light">Empresa: ${element.company}</h4>
+            <h4 class="description gray-light">Empresa: ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
             <h4 class="description gray-light">${element.period}</h4>
             <div class="flex justify">
@@ -204,9 +208,11 @@ function apply() {
         languages = '';
         element.languages.forEach(item => languages += `<img class="language-icon" src="assets/${item}.svg"></img>`);
         html +=
-        `
+            `
         <div class="box">
-            <h2 class="green-strong">${element.title}</h2>
+            <div class="box-title">
+                <h2 class="green-strong">${element.title}</h2>
+            </div>
             <div class="bar greenS"></div>
             <h4 class="gray-light">Escola ${element.company}</h4>
             <div class="flex justify">
@@ -219,5 +225,5 @@ function apply() {
         `
     });
     document.getElementById("content4").innerHTML = html;
-    
+
 }
