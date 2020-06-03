@@ -9,22 +9,22 @@ var tec = [
     {
         title: 'PYTHON',
         color: 'yellow',
-        frameworks: ['PYTHON'],
+        frameworks: ['NONE'],
     },
     {
         title: 'C',
         color: 'yellow',
-        frameworks: ['C'],
+        frameworks: ['NONE'],
     },
     {
         title: 'JAVA',
         color: 'red',
-        frameworks: ['JAVA'],
+        frameworks: ['NONE'],
     },
     {
         title: 'SHELL SCRIPT',
         color: 'yellow',
-        frameworks: ['SHELL'],
+        frameworks: ['NONE'],
     },
     {
         title: 'JS',
@@ -85,7 +85,7 @@ var jobs = [
         title: 'Programador',
         description: 'Desenvolvimento/Manutenção no sistema da empresa.',
         languages: ['NOTES', 'HTML', 'JS', 'CSS', 'JQUERY'],
-        period: "06/2017 - 12/2019",
+        period: "06/2019 - 12/2019",
         company: 'Integro Consultores'
     },
     {
