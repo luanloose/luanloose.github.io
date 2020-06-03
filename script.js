@@ -2,50 +2,56 @@
 // red = basico, yellow = intermediario, green = avançado
 var tec = [
     {
-        title: 'PHP (LARAVEL/LUMEN)',
+        title: 'PHP',
         color: 'yellow',
+        framework: 'LUMEN | LARAVEL',
     },
     {
         title: 'PYTHON',
         color: 'yellow',
+        framework: '',
     },
     {
         title: 'C',
         color: 'yellow',
+        framework: '',
     },
     {
         title: 'JAVA',
         color: 'red',
+        framework: '',
     },
     {
         title: 'SHELL SCRIPT',
         color: 'yellow',
+        framework: '',
     },
     {
-        title: 'JS (VUE)',
+        title: 'JS',
         color: 'yellow',
+        framework: 'VUE',
     },
 ];
 
 // Se quiser inserir outras linguagens ve como eu fiz pra inserir o php/js
 var projects = [
     {
-        title: 'Site',
-        description: 'Insira uma descrição aleatória aqui',
+        title: 'Api PicPay',
+        description: 'Desafio de backend PicPay feito apenas para conhecimento',
         link: 'http://google.com',
-        languages: ['PHP', 'JS']
+        languages: ['PHP', 'LUMEN']
     },
     {
-        title: 'Site',
-        description: 'Insira uma descrição aleatória aqui!!!!!!!',
+        title: 'Api McDonalds Mc Experiencia',
+        description: 'Gerador de cupom da promoção do Mc Donalds',
         link: 'http://google.com',
-        languages: ['PHP']
+        languages: ['PHP', 'LARAVEL']
     },
     {
-        title: 'Site',
-        description: 'Insira uma descrição aleatória aqui!!!!!!!',
+        title: 'CS50X',
+        description: 'Projetos do curso de programação de Harvard',
         link: 'http://google.com',
-        languages: ['JS']
+        languages: ['PYTHON', 'C']
     },
 ];
 
@@ -60,6 +66,7 @@ function apply() {
             <h2>${element.title}</h2>
             <div class="bar ${element.color}B"></div>
             <h4 class="gray-light">Nivel ${level}</h4>
+            <h4 class="gray-light">${element.framework}</h4>
         </div>
         `
     });
