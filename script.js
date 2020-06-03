@@ -4,32 +4,32 @@ var tec = [
     {
         title: 'PHP',
         color: 'yellow',
-        framework: 'LUMEN | LARAVEL',
+        frameworks: ['LUMEN', 'LARAVEL'],
     },
     {
         title: 'PYTHON',
         color: 'yellow',
-        framework: '',
+        frameworks: ['PYTHON'],
     },
     {
         title: 'C',
         color: 'yellow',
-        framework: '',
+        frameworks: ['C'],
     },
     {
         title: 'JAVA',
         color: 'red',
-        framework: '',
+        frameworks: ['JAVA'],
     },
     {
         title: 'SHELL SCRIPT',
         color: 'yellow',
-        framework: '',
+        frameworks: ['SHELL'],
     },
     {
         title: 'JS',
         color: 'yellow',
-        framework: 'VUE',
+        frameworks: ['VUE'],
     },
 ];
 
@@ -145,15 +145,21 @@ var courses = [
 function apply () {
     let html = '';
     let level = '';
+    let frameworks = '';
     tec.forEach(element => {
         level = element.color === 'red' ? 'Básico' : element.color === 'yellow' ? 'Intermediário' : 'Avançado';
+        frameworks = '';
+        element.frameworks.forEach(item => frameworks += `<img class="language-icon" src="assets/${item}.svg"></img>`);
+
         html +=
             `
         <div class="box">
             <h2>${element.title}</h2>
             <div class="bar ${element.color}B"></div>
-            <h4 class="gray-light">Nivel ${level}</h4>
-            <h4 class="gray-light">${element.framework}</h4>
+            <h4 class="description gray-light">Nivel ${level}</h4>
+            <div class="flex">
+                    ${frameworks}
+            </div>
         </div>
         `
     });
