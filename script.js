@@ -143,7 +143,7 @@ function apply() {
         <div class="box">
             <h2 class="green-strong">${element.title}</h2>
             <div class="bar greenS"></div>
-            <h4 class="gray-light">Empresa ${company}</h4>
+            <h4 class="gray-light">Empresa ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
             <div class="flex justify">
                 <div class="flex">
