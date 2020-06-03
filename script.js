@@ -2,7 +2,7 @@
 // red = basico, yellow = intermediario, green = avançado
 var tec = [
     {
-        title: 'PHP',
+        title: 'PHP (LARAVEL/LUMEN)',
         color: 'yellow',
     },
     {
@@ -14,15 +14,15 @@ var tec = [
         color: 'yellow',
     },
     {
-        title: 'LARAVEL',
-        color: 'yellow',
-    },
-    {
-        title: 'VUE',
+        title: 'JAVA',
         color: 'red',
     },
     {
-        title: 'JS',
+        title: 'SHELL SCRIPT',
+        color: 'yellow',
+    },
+    {
+        title: 'JS (VUE)',
         color: 'yellow',
     },
 ];
