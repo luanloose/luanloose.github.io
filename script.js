@@ -214,7 +214,7 @@ function apply () {
                 <h2 class="green-strong">${element.title}</h2>
             </div>
             <div class="bar greenS"></div>
-            <h4 class="gray-light">Escola ${element.company}</h4>
+            <h4 class="description gray-light">Escola ${element.company}</h4>
             <div class="flex justify">
             <a class="link" target="_blank" href="${element.link}">Certificado</a>
                 <div class="flex">
