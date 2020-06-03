@@ -38,20 +38,38 @@ var projects = [
     {
         title: 'Api PicPay',
         description: 'Desafio de backend PicPay feito apenas para conhecimento',
-        link: 'http://google.com',
+        link: 'https://github.com/luanloose/api-picpay',
         languages: ['PHP', 'LUMEN']
     },
     {
         title: 'Api McDonalds Mc Experiencia',
         description: 'Gerador de cupom da promoção do Mc Donalds',
-        link: 'http://google.com',
+        link: 'https://github.com/luanloose/api-mc-experiencia',
         languages: ['PHP', 'LARAVEL']
     },
     {
         title: 'CS50X',
         description: 'Projetos do curso de programação de Harvard',
-        link: 'http://google.com',
+        link: '',
         languages: ['PYTHON', 'C']
+    },
+    {
+        title: 'Api Imobiliaria',
+        description: 'Projeto do Curso de Api Rest',
+        link: 'https://github.com/luanloose/api-imobiliaria',
+        languages: ['PHP', 'LARAVEL']
+    },
+    {
+        title: 'Controle de Séries',
+        description: 'Projeto do Curso de Laravel para gestão de episodios assistidos',
+        link: 'https://github.com/luanloose/controle-series',
+        languages: ['PHP', 'LARAVEL']
+    },
+    {
+        title: 'Exemplos',
+        description: 'Códigos do dia a dia para consulta',
+        link: 'https://github.com/luanloose/Examples',
+        languages: ['PHP', 'LARAVEL', 'LUMEN']
     },
 ];
 
