@@ -77,7 +77,7 @@ var jobs = [
     {
         title: 'Analista de desenvolvimento',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
-        languages: ['LARAVEL', 'LUMEN', 'VUE','SELENIUM', 'PHP', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        languages: ['LARAVEL', 'LUMEN', 'VUE', 'SELENIUM', 'PHP', 'HTML', 'JS', 'CSS', 'JQUERY'],
         company: 'Genesis Tecnologia',
     },
     {
@@ -89,7 +89,7 @@ var jobs = [
     {
         title: 'Técnico de Suporte | Administrador de Sistemas',
         description: 'Desenvolvimento/Manutenção de aplicação e scripts',
-        languages: ['AWS','POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
+        languages: ['AWS', 'POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
         company: 'Telelaudo Tecnologia Médica'
     }
 ];
@@ -97,42 +97,36 @@ var jobs = [
 var courses = [
     {
         title: 'CIÊNCIAS DA COMPUTAÇÃO',
-        description: '',
         languages: ['PHP', 'JAVA', 'PYTHON'],
         link: '',
         company: 'FAESA',
     },
     {
         title: 'TÉCNICO EM INFORMÁTICA',
-        description: '',
-        languages: ['PHP', 'PYTHON', 'C' , 'HTML', 'JS', 'CSS', 'JQUERY'],
+        languages: ['PHP', 'PYTHON', 'C', 'HTML', 'JS', 'CSS', 'JQUERY'],
         link: 'https://drive.google.com/file/d/1dqVfNMKDLD9KDLGYBj0Z3VtO3ybJpgIU/view?usp=sharing',
         company: 'INSTITUTO FEDERAL DO ESPIRITO SANTO',
     },
     {
         title: 'LARAVEL',
-        description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
         languages: ['PHP', 'LUMEN','LARAVEL'],
         link: 'https://drive.google.com/drive/folders/1vVdwc01vgk_eSe-nGv3frR1gmij533SM?usp=sharing',
         company: 'Udemy | TreinaWeb',
     },
     {
         title: 'VUEJS',
-        description: '',
         languages: ['PHP', 'LUMEN','LARAVEL'],
         link: 'https://drive.google.com/drive/folders/1t-bFkY0FL4ppAUftRr2lVQ-jItL9xqxn?usp=sharing',
         company: 'Udemy | TreinaWeb',
     },
     {
         title: 'SELENIUM',
-        description: 'Gerador de cupom da promoção do Mc Donalds.',
         languages: ['SELENIUM'],
         link: 'https://drive.google.com/file/d/16fmH8E8SjcDFXYhlKETzZIVaihby6MiY/view?usp=sharing',
         company: 'TreinaWeb'
     },
     {
         title: 'JAVASCRIPT',
-        description: 'Desenvolvimento/Manutenção de aplicação e scripts',
         languages: ['JS'],
         link: 'https://drive.google.com/drive/folders/1FsQbaSSpHUeYV8v1MHHEED6Ap-9x9CwF?usp=sharing',
         company: 'TreinaWeb'
@@ -211,7 +205,6 @@ function apply() {
             <h2 class="green-strong">${element.title}</h2>
             <div class="bar greenS"></div>
             <h4 class="gray-light">Escola ${element.company}</h4>
-            <h4 class="description gray-light">${element.description}</h4>
             <div class="flex justify">
             <a class="link" target="_blank" href="${element.link}">Certificado</a>
                 <div class="flex">
