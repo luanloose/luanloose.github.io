@@ -83,11 +83,14 @@ h2 {
 .box {
     margin: 0 50px 50px;
     width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .description {
     max-width: 200px;
     margin-bottom: 10px;
+    height: 100%;
 }
 
 .link {
