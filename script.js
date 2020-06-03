@@ -77,19 +77,40 @@ var jobs = [
     {
         title: 'Analista de desenvolvimento',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
-        languages: ['PHP', 'LUMEN', 'SELENIUM', 'LARAVEL', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        languages: ['PHP', 'LUMEN', 'SELENIUM', 'LARAVEL', 'GO', 'HTML', 'JS', 'CSS', 'JQUERY'],
         company: 'Genesis Tecnologia',
     },
     {
-        title: 'Programdor',
+        title: 'Programador',
         description: 'Gerador de cupom da promoção do Mc Donalds.',
-        languages: ['HTML', 'JS', 'CSS', 'JQUERY'],
+        languages: ['NOTES','HTML', 'JS', 'CSS', 'JQUERY'],
         company: 'Integro Consultores'
     },
     {
         title: 'Técnico de Suporte | Administrador de Sistemas',
         description: 'Desenvolvimento/Manutenção de aplicação e scripts',
-        languages: ['POWERSHELL', 'SHELL'],
+        languages: ['AWS','POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
+        company: 'Telelaudo Tecnologia Médica'
+    }
+];
+
+var courses = [
+    {
+        title: 'Analista de desenvolvimento',
+        description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
+        languages: ['PHP', 'LUMEN', 'SELENIUM', 'LARAVEL', 'GO', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        company: 'Genesis Tecnologia',
+    },
+    {
+        title: 'Programador',
+        description: 'Gerador de cupom da promoção do Mc Donalds.',
+        languages: ['NOTES','HTML', 'JS', 'CSS', 'JQUERY'],
+        company: 'Integro Consultores'
+    },
+    {
+        title: 'Técnico de Suporte | Administrador de Sistemas',
+        description: 'Desenvolvimento/Manutenção de aplicação e scripts',
+        languages: ['AWS','POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
         company: 'Telelaudo Tecnologia Médica'
     }
 ];
@@ -144,6 +165,28 @@ function apply() {
             <h2 class="green-strong">${element.title}</h2>
             <div class="bar greenS"></div>
             <h4 class="gray-light">Empresa ${element.company}</h4>
+            <h4 class="description gray-light">${element.description}</h4>
+            <div class="flex justify">
+                <div class="flex">
+                    ${languages}
+                </div>
+            </div>
+        </div>
+        `
+    });
+    document.getElementById("content3").innerHTML = html;
+
+    html = '';
+    languages = '';
+    courses.forEach(element => {
+        languages = '';
+        element.languages.forEach(item => languages += `<img class="language-icon" src="assets/${item}.svg"></img>`);
+        html +=
+        `
+        <div class="box">
+            <h2 class="green-strong">${element.title}</h2>
+            <div class="bar greenS"></div>
+            <h4 class="gray-light">Escola ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
             <div class="flex justify">
                 <div class="flex">
