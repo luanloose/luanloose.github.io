@@ -39,10 +39,10 @@ var projects = [
         title: 'Api PicPay',
         description: 'Desafio de backend PicPay feito apenas para conhecimento',
         link: 'https://github.com/luanloose/api-picpay',
-        languages: ['PHP', 'LUMEN']
+        languages: ['PHP']
     },
     {
-        title: 'Api McDonalds Mc Experiencia',
+        title: 'Api McExperiencia',
         description: 'Gerador de cupom da promoção do Mc Donalds',
         link: 'https://github.com/luanloose/api-mc-experiencia',
         languages: ['PHP', 'LARAVEL']
@@ -69,7 +69,7 @@ var projects = [
         title: 'Exemplos',
         description: 'Códigos do dia a dia para consulta',
         link: 'https://github.com/luanloose/Examples',
-        languages: ['PHP', 'LARAVEL', 'LUMEN']
+        languages: ['PHP', 'LARAVEL']
     },
 ];
 
