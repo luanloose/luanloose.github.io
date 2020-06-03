@@ -37,39 +37,39 @@ var tec = [
 var projects = [
     {
         title: 'Api PicPay',
-        description: 'Desafio de backend PicPay feito apenas para conhecimento',
+        description: 'Desafio de backend PicPay. Feito apenas para conhecimento.',
         link: 'https://github.com/luanloose/api-picpay',
         languages: ['PHP', 'LUMEN']
     },
     {
         title: 'Api McExperiencia',
-        description: 'Gerador de cupom da promoção do Mc Donalds',
+        description: 'Gerador de cupom da promoção do Mc Donalds.',
         link: 'https://github.com/luanloose/api-mc-experiencia',
         languages: ['PHP', 'LARAVEL']
     },
     {
         title: 'Api Imobiliaria',
-        description: 'Gestão de imóveis',
+        description: 'Gestão de imóveis.',
         link: 'https://github.com/luanloose/api-imobiliaria',
         languages: ['PHP', 'LARAVEL']
     },
     {
         title: 'CS50X',
-        description: 'Projetos do curso de programação de Harvard',
+        description: 'Projetos do curso de programação de Harvard.',
         link: '',
         languages: ['PYTHON', 'C']
     },
     {
         title: 'Controle de Séries',
-        description: 'Sistema para gestão de episodios assistidos',
+        description: 'Sistema para gestão de episodios assistidos.',
         link: 'https://github.com/luanloose/controle-series',
         languages: ['PHP', 'LARAVEL']
     },
     {
         title: 'Exemplos',
-        description: 'Códigos do dia a dia para consulta',
+        description: 'Códigos do dia a dia para consulta.',
         link: 'https://github.com/luanloose/Examples',
-        languages: ['PHP', 'LARAVEL', 'LUMEN']
+        languages: ['PHP', 'LARAVEL', 'LUMEN', 'SELENIUM','DOCKER']
     },
 ];
 
