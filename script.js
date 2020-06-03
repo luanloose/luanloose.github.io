@@ -73,6 +73,27 @@ var projects = [
     },
 ];
 
+var jobs = [
+    {
+        title: 'Analista de desenvolvimento',
+        description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
+        languages: ['PHP', 'LUMEN', 'SELENIUM', 'LARAVEL', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        company: 'Genesis Tecnologia',
+    },
+    {
+        title: 'Programdor',
+        description: 'Gerador de cupom da promoção do Mc Donalds.',
+        languages: ['HTML', 'JS', 'CSS', 'JQUERY'],
+        company: 'Integro Consultores'
+    },
+    {
+        title: 'Técnico de Suporte | Administrador de Sistemas',
+        description: 'Desenvolvimento/Manutenção de aplicação e scripts',
+        languages: ['POWERSHELL', 'SHELL'],
+        company: 'Telelaudo Tecnologia Médica'
+    }
+];
+
 function apply() {
     let html = '';
     let level = '';
@@ -111,4 +132,27 @@ function apply() {
         `
     });
     document.getElementById("content2").innerHTML = html;
+
+    html = '';
+    languages = '';
+    jobs.forEach(element => {
+        languages = '';
+        element.languages.forEach(item => languages += `<img class="language-icon" src="assets/${item}.svg"></img>`);
+        html +=
+        `
+        <div class="box">
+            <h2 class="green-strong">${element.title}</h2>
+            <div class="bar greenS"></div>
+            <h4 class="gray-light">Empresa ${company}</h4>
+            <h4 class="description gray-light">${element.description}</h4>
+            <div class="flex justify">
+                <div class="flex">
+                    ${languages}
+                </div>
+            </div>
+        </div>
+        `
+    });
+    document.getElementById("content3").innerHTML = html;
+    
 }
