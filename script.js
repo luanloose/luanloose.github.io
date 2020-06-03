@@ -3,15 +3,27 @@
 var tec = [
     {
         title: 'PHP',
-        color: 'red',
-    },
-    {
-        title: 'VUE',
         color: 'yellow',
     },
     {
+        title: 'PYTHON',
+        color: 'yellow',
+    },
+    {
+        title: 'C',
+        color: 'yellow',
+    },
+    {
+        title: 'LARAVEL',
+        color: 'yellow',
+    },
+    {
+        title: 'VUE',
+        color: 'red',
+    },
+    {
         title: 'JS',
-        color: 'green',
+        color: 'yellow',
     },
 ];
 
