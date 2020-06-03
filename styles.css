@@ -87,6 +87,10 @@ h2 {
     flex-direction: column;
 }
 
+.box-title {
+    vertical-align: middle;
+}
+
 .description {
     max-width: 200px;
     margin-bottom: 10px;

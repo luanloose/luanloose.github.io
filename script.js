@@ -75,7 +75,7 @@ var projects = [
 
 var jobs = [
     {
-        title: 'Analista de desenvolvimento',
+        title: 'Desenvolvedor',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
         languages: ['LARAVEL', 'LUMEN', 'VUE', 'SELENIUM', 'PHP', 'HTML', 'JS', 'CSS', 'JQUERY'],
         period: "12/2019 - Atual",
@@ -89,7 +89,7 @@ var jobs = [
         company: 'Integro Consultores'
     },
     {
-        title: 'Técnico de Suporte | Administrador de Sistemas',
+        title: 'Suporte',
         description: 'Desenvolvimento/Manutenção de aplicação e scripts',
         languages: ['AWS', 'POWERSHELL', 'SHELL', 'PYTHON', 'BATCH'],
         period: "06/2017 - 06/2019",
@@ -99,40 +99,46 @@ var jobs = [
 
 var courses = [
     {
-        title: 'CIÊNCIAS DA COMPUTAÇÃO',
+        title: 'GRADUAÇÃO',
         languages: ['PHP', 'JAVA', 'PYTHON'],
         link: '',
-        company: 'FAESA',
+        company: 'Ciências da Computação - FAESA',
+        period: "01/2018 - Cursando"
     },
     {
-        title: 'TÉCNICO EM INFORMÁTICA',
+        title: 'TÉCNICO',
         languages: ['PHP', 'PYTHON', 'C', 'HTML', 'JS', 'CSS', 'JQUERY'],
         link: 'https://drive.google.com/file/d/1dqVfNMKDLD9KDLGYBj0Z3VtO3ybJpgIU/view?usp=sharing',
-        company: 'INSTITUTO FEDERAL DO ESPIRITO SANTO',
+        company: 'Informática - IFES',
+        period: "06/2013 - 02/2016",
     },
     {
         title: 'LARAVEL',
         languages: ['PHP', 'LUMEN', 'LARAVEL'],
         link: 'https://drive.google.com/drive/folders/1vVdwc01vgk_eSe-nGv3frR1gmij533SM?usp=sharing',
         company: 'Udemy | TreinaWeb',
+        period: "73 Horas",
     },
     {
         title: 'VUEJS',
         languages: ['PHP', 'LUMEN', 'LARAVEL'],
         link: 'https://drive.google.com/drive/folders/1t-bFkY0FL4ppAUftRr2lVQ-jItL9xqxn?usp=sharing',
         company: 'Udemy | TreinaWeb',
+        period: "14 Horas"
     },
     {
         title: 'SELENIUM',
         languages: ['SELENIUM'],
         link: 'https://drive.google.com/file/d/16fmH8E8SjcDFXYhlKETzZIVaihby6MiY/view?usp=sharing',
-        company: 'TreinaWeb'
+        company: 'TreinaWeb',
+        period: "8 Horas"
     },
     {
         title: 'JAVASCRIPT',
         languages: ['JS'],
         link: 'https://drive.google.com/drive/folders/1FsQbaSSpHUeYV8v1MHHEED6Ap-9x9CwF?usp=sharing',
-        company: 'TreinaWeb'
+        company: 'TreinaWeb',
+        period: "50 Horas"
     }
 ];
 
@@ -163,8 +169,8 @@ function apply () {
         <div class="box">
             <div class="box-title">
                 <h2 class="green-strong">${element.title}</h2>
+                <div class="bar greenS"></div>
             </div>
-            <div class="bar greenS"></div>
             <h4 class="description white">${element.description}</h4>
             <div class="flex justify">
                 <a class="link" target="_blank" href="${element.link}">Github</a>
@@ -187,8 +193,8 @@ function apply () {
         <div class="box">
             <div class="box-title">
                 <h2 class="green-strong">${element.title}</h2>
+                <div class="bar greenS"></div>
             </div>
-            <div class="bar greenS"></div>
             <h4 class="description gray-light">Empresa: ${element.company}</h4>
             <h4 class="description gray-light">${element.description}</h4>
             <h4 class="description gray-light">${element.period}</h4>
@@ -212,9 +218,10 @@ function apply () {
         <div class="box">
             <div class="box-title">
                 <h2 class="green-strong">${element.title}</h2>
+                <div class="bar greenS"></div>
             </div>
-            <div class="bar greenS"></div>
-            <h4 class="description gray-light">Escola ${element.company}</h4>
+            <h4 class="description gray-light">${element.company}</h4>
+            <h4 class="description gray-light">${element.period}</h4>
             <div class="flex justify">
             <a class="link" target="_blank" href="${element.link}">Certificado</a>
                 <div class="flex">
