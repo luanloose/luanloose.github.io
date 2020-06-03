@@ -77,7 +77,7 @@ var jobs = [
     {
         title: 'Analista de desenvolvimento',
         description: 'Desenvolvimento/Manutenção de API Rest, sistemas web',
-        languages: ['LARAVEL', 'LUMEN', 'VUE','SELENIUM', 'PHP', 'GO', 'HTML', 'JS', 'CSS', 'JQUERY'],
+        languages: ['LARAVEL', 'LUMEN', 'VUE','SELENIUM', 'PHP', 'HTML', 'JS', 'CSS', 'JQUERY'],
         company: 'Genesis Tecnologia',
     },
     {
