@@ -45,7 +45,7 @@ var projects = [
         title: 'Api McExperiencia',
         description: 'Gerador de cupom da promoção do Mc Donalds.',
         link: 'https://github.com/luanloose/api-mc-experiencia',
-        languages: ['PHP', 'LARAVEL']
+        languages: ['PHP', 'LARAVEL', 'SELENIUM']
     },
     {
         title: 'Api Imobiliaria',
@@ -63,7 +63,7 @@ var projects = [
         title: 'Controle de Séries',
         description: 'Sistema para gestão de episodios assistidos.',
         link: 'https://github.com/luanloose/controle-series',
-        languages: ['PHP', 'LARAVEL']
+        languages: ['PHP', 'LARAVEL','HTML']
     },
     {
         title: 'Exemplos',
