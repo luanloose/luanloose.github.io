@@ -114,21 +114,21 @@ var courses = [
     },
     {
         title: 'LARAVEL',
-        languages: ['PHP', 'LUMEN', 'LARAVEL'],
+        languages: ['LARAVEL', 'LUMEN', 'PHP'],
         link: 'https://drive.google.com/drive/folders/1vVdwc01vgk_eSe-nGv3frR1gmij533SM?usp=sharing',
         company: 'Udemy | TreinaWeb',
         period: "73 Horas",
     },
     {
         title: 'VUEJS',
-        languages: ['PHP', 'LUMEN', 'LARAVEL'],
+        languages: ['VUE','JS', 'CSS'],
         link: 'https://drive.google.com/drive/folders/1t-bFkY0FL4ppAUftRr2lVQ-jItL9xqxn?usp=sharing',
         company: 'Udemy | TreinaWeb',
         period: "14 Horas"
     },
     {
         title: 'SELENIUM',
-        languages: ['SELENIUM'],
+        languages: ['SELENIUM','PHP','JAVA'],
         link: 'https://drive.google.com/file/d/16fmH8E8SjcDFXYhlKETzZIVaihby6MiY/view?usp=sharing',
         company: 'TreinaWeb',
         period: "8 Horas"
