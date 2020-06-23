@@ -141,6 +141,33 @@ var courses = [
         period: "50 Horas"
     }
 ];
+var events = [
+    {
+        title: 'HACKFAESA 7.0',
+        link: 'https://drive.google.com/file/d/15VG0rI1sBnWYsNZ92L2jWtRRLnxzqiLi/view?usp=sharing',
+        period: "28 horas"
+    },
+    {
+        title: 'HACKFAESA 6.0',
+        link: 'https://drive.google.com/file/d/1WRSBXxIoikjv0L1UYdfijZ-ZzdAuHrcD/view?usp=sharing',
+        period: "20 horas"
+    },
+    {
+        title: 'HACKATHON CCR',
+        link: 'https://drive.google.com/file/d/10lEnjUyFE3tzz-ErCz_gGsbkL9Nygpwv/view?usp=sharing',
+        period: "48 horas"
+    },
+    {
+        title: 'Inteligência Artificial',
+        link: 'https://drive.google.com/file/d/1-gjWn_QIyAtSW_ud7t2Zeh6xpeuAkw5a/view?usp=sharing',
+        period: "1 hora"
+    },
+    {
+        title: 'Introdução ao IoT',
+        link: 'https://drive.google.com/file/d/1OpxIkqana3seXDObR0NPRm_XuSkj0w3X/view?usp=sharing',
+        period: "1h"
+    },
+];
 
 function apply () {
     let html = '';
@@ -238,5 +265,25 @@ function apply () {
         `
     });
     document.getElementById("content4").innerHTML = html;
+
+    html = '';
+    languages = '';
+    events.forEach(element => {
+        languages = '';
+        html +=
+            `
+        <div class="box">
+            <div class="box-title">
+                <h2 class="green-strong">${element.title}</h2>
+                <div class="bar greenS"></div>
+            </div>
+            <h4 class="description gray-light">${element.period}</h4>
+            <div class="flex justify">
+            <a class="link" target="_blank" href="${element.link}">Certificado</a>
+            </div>
+        </div>
+        `
+    });
+    document.getElementById("content5").innerHTML = html;
 
 }
