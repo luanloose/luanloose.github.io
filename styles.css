@@ -109,6 +109,18 @@ h2 {
     padding: 0 3px;
 }
 
+.linkB {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0 3px;
+}
+
 .language-icon {
     height: 20px;
     margin-left: 2px;

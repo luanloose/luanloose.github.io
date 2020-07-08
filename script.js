@@ -279,7 +279,7 @@ function apply () {
             </div>
             <h4 class="description gray-light">${element.period}</h4>
             <div class="flex justify gray-light">
-            <a class="link gray-light" target="_blank" href="${element.link}">Certificado</a>
+            <a class="linkB gray-light" target="_blank" href="${element.link}">Certificado</a>
             </div>
         </div>
         `
